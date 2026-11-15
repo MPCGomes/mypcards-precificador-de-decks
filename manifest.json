@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "MYPCards – Precificador de Decks",
+  "version": "1.0.0",
+  "description": "Extensão não oficial para comparar preços de decks no MYPCards: menor preço, mediana, última venda, TCGPlayer e preço sugerido.",
+  "content_scripts": [
+    {
+      "matches": ["https://mypcards.com/outros/*"],
+      "css": ["styles/priceStyles.css"],
+      "js": ["dist/contentScript.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "images/arrowDown.svg",
+        "images/clock.svg",
+        "images/minus.svg",
+        "images/mypCardsLogo.svg",
+        "images/tcgPlayerLogo.svg"
+      ],
+      "matches": ["https://mypcards.com/*"]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

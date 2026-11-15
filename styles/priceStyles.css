@@ -1,0 +1,20 @@
+.priceContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.logoImage {
+  margin-right: 10px;
+  width: 24px;
+  height: 16px;
+  object-fit: contain;
+}
+
+.mypCardsPrice,
+.tcgPlayerPrice,
+.suggestedPrice {
+  font-size: 16px;
+  font-weight: bold;
+  color: #eceff1;
+}

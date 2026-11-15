@@ -1,0 +1,12 @@
+{
+  "name": "mypcards-precificador-de-decks",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "webpack": "^5.112.2",
+    "webpack-cli": "^7.3.1"
+  }
+}
